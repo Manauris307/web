@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+
+    <!--CSS-->
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #33aa51;
+    }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .producto {
+        border: 1px solid #ec5d5d;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        flex: 20px;
+        box-sizing: border-box;
+    }
+
+    .producto img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        background-color: #357d2b;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <h1>Soluciones M&S</h1>
+        <nav>
+            <ul>
+                <li><a href="tienda.html">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="presentacion.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="productos">
+        <article class="producto">
+            <img src="https://media.es.wired.com/photos/664bb5c610f4fbed4732c2d4/4:3/w_1424,h_1068,c_limit/Surface-Laptop-and-Surface-Pro-1900x1069.jpg" alt="Surface">
+            <h2>Microsoft Surface</h2>
+            <p>Microsoft Tablet Surface Pro 9 de 13 pulgadas, Core i7 de 12ª generación i7-1265U, deca-core (10 núcleos), 16 GB de RAM, SSD de 256 GB, Windows 11 Pro de 64 bits, platino</p>
+            <p>$1,000</p>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="https://m.media-amazon.com/images/I/51qR5Al4jrL._AC_SL1500_.jpg" alt="Asus Vivobook">
+            <h2>ASUS VivoBook 15</h2>
+            <p>ASUS VivoBook 15 Laptop FHD de 15.6 pulgadas, Intel Core i5-1240P, 16 GB de RAM, SSD PCIe de 512 GB, gráficos Intel Iris Xe, teclado retroiluminado, lector de huellas dactilares, Wi-Fi 6, Win 11</p>
+            <p>$639</p>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <article class="producto">
+            <img src="https://m.media-amazon.com/images/I/51pGo9iJmEL._AC_SL1500_.jpg" alt="Lenovo IdeaPad 1">
+            <h2>Lenovo IdeaPad 1i</h2>
+            <p>Lenovo IdeaPad 1i Laptop para negocios y estudiantes, pantalla FHD de 15.6, Core i5-1235U de 12ª generación, 8 GB de RAM, 256 GB PCIe SSD, WiFi 6, teclado, batería de larga duración</p>
+            <p>$420</p>
+            <button>Añadir al carrito</button>
+        </article>
+
+        <!-- Agregar todos los productos que deseen siguiendo esta estructura-->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda Online</p>
+    </footer>
+</body>
+</html>
